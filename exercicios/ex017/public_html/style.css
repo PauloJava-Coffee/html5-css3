@@ -1,0 +1,45 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 7 de jun. de 2024, 11:06:22
+    Author     : barbo
+*/
+@chaset "UTF-8";
+
+body{
+    background-color: rgb(205,255,203);
+    font-family: arial,helvetica, sans-serif;
+}
+h1{
+    color: rgb(4,109,0);
+}
+h1#principal{
+    color: white;
+    background-color:  rgb(4,109,0);
+    text-align: center;
+}
+
+h2{
+    color: rgb(51,77,49);
+}
+.basico{
+   color:  rgb(51,77,49);
+    text-shadow: 1px 1px 2px black;
+}
+.intermediario{
+    color: #f4f67c;
+    text-shadow: 1px 1px 2px black;
+}
+.avancado{
+     text-shadow: 1px 1px 2px black;
+    color: #de5046;
+}
+
+.destaque{
+    background-color: #c5c56070 ;
+}
+
+
+

@@ -1,0 +1,31 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 3 de jun. de 2024, 09:31:32
+    Author     : barbo
+*/
+@charset "UTF8";
+body{
+    background-color: black;
+        
+}
+h1{
+    color: khaki;
+    text-align:center;
+}
+h2{
+    color:azure;
+}
+p{
+    text-align: left;
+    font-family: monospace;
+    color: #e5528c;
+}
+a{
+    color: aqua;   
+}
+
+
+
