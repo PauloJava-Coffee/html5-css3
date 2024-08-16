@@ -24,7 +24,7 @@ Grandes telas:
        img#print{display: block;}
 
     }
-    main{
+     main{
         border: 1px solid black;
     }
     main > h1{

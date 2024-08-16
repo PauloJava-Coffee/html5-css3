@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mq005</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <i id="burger" class="material-icons" onclick="clicouMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando media queries</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate maxime accusamus, nemo officia
+                veritatis totam laudantium tenetur. Numquam unde facere asperiores magni, blanditiis aspernatur repellat
+                vero. Sapiente, blanditiis? Nisi, cum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                delectus amet at minima totam assumenda, maxime distinctio quisquam? Praesentium dolores iure cum
+                aspernatur excepturi illum nam, blanditiis laboriosam minus! Similique. Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Ea omnis, quasi aliquam vitae nemo, est sunt deserunt sapiente officiis
+                commodi exercitationem beatae! Dolore magni est aut, deserunt ullam excepturi facilis? Lorem ipsum dolor
+                sit amet consectetur adipisicing elit. Corporis odio nemo mollitia ipsum accusantium, quisquam quis
+                optio cumque fugit eligendi. Sit doloremque nemo molestias est, blanditiis cumque quam tempora eveniet.
+
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate maxime accusamus, nemo officia
+                veritatis totam laudantium tenetur. Numquam unde facere asperiores magni, blanditiis aspernatur repellat
+                vero. Sapiente, blanditiis? Nisi, cum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                delectus amet at minima totam assumenda, maxime distinctio quisquam? Praesentium dolores iure cum
+                aspernatur excepturi illum nam, blanditiis laboriosam minus! Similique. Lorem ipsum, dolor sit amet
+                consectetur adipisicing elit. Perspiciatis incidunt praesentium harum sint repellendus quasi, quam
+                laboriosam fugiat ut cumque, omnis iste! Impedit obcaecati minus consequatur, at quod iusto voluptate!
+            </p>
+        </article>
+    </main>
+
+    <script>
+        function clicouMenu(){
+        if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+        }
+        else{
+            itens.style.display = 'block'
+        }
+               
+        }
+    </script>
+
+</body>
+
+</html>
