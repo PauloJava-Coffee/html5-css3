@@ -7,9 +7,10 @@
     <title>Mq005</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu site</h1>
         <i id="burger" class="material-icons" onclick="clicouMenu()">menu</i>
@@ -52,14 +53,26 @@
     </main>
 
     <script>
-        function clicouMenu(){
-        if (itens.style.display == 'block') {
-            itens.style.display = 'none'
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block';
+
+            }
+            else {
+                itens.style.display = 'none';
+
+            }
         }
-        else{
-            itens.style.display = 'block'
-        }
-               
+
+
+        function clicouMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            }
+            else {
+                itens.style.display = 'block'
+            }
+
         }
     </script>
 
