@@ -6,10 +6,10 @@
 /* Tipical device breakPoint
 
 pequenas telas:
-Celulares:
-tabletes: 
-desktops: 
-Grandes telas:
+Celulares: menor que 768px
+tabletes: 768ps até 992px
+desktops: 992px À 1200px
+Grandes telas: maior que 1200px
 
 */
 
